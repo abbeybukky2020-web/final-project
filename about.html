@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me - Quadri Kobiowu</title>
+</head>
+<body>
+
+    <h1>Contact Me</h1>
+    <p>If you have any questions or would like to get in touch, please fill out the form below or use the provided contact details.</p>
+
+    <h2>Contact Details</h2>
+    <p><strong>Address:</strong> House No 21, Akinloye street, Basorun Ibadan.</p>
+    <p><strong>Phone:</strong> 08157708858</p>
+    <p><strong>Email:</strong> <a href="dunnextech26@gmail.com">dunnextech26@gmail.com</a></p>
+
+    <h2>Send Me a Message</h2>
+    <form action="dunnextech26@gmail.com" method="post" enctype="text/plain">
+        
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="prefer_not" name="gender" value="prefer_not_to_say">
+        <label for="prefer_not">Prefer not to say</label><br><br>
+
+        <label for="contact_method">Select Preferred Contact Method:</label><br>
+        <select id="contact_method" name="contact_method" required>
+            <option value="" disabled selected hidden>Select a contact method...</option>
+            <option value="email">Email</option>
+            <option value="phone">Phone</option>
+            <option value="none">None</option>
+        </select><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="30" placeholder="Enter your message" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+    <br><br>
+    <a href="index.html">Go Back Home</a>
+
+</body>
+</html>
+</body>
+</html>
